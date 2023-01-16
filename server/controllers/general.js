@@ -1,4 +1,12 @@
-var express = require('express')
-var router = express.Router()
+const User = require('../models/User')
 
-export default router
+exports.getUser = async (req, res, next) => {
+    try{
+        const { id } = req.params
+        const user = await User.findById(id)
+        res.status(200).json(user)
+    }
+    catch(err){
+        res.status(404).json({message: err.message})
+    }
+}

@@ -12,6 +12,8 @@ const managementRoutes = require("./routes/management")
 const salesRoutes = require("./routes/sales")
 
 // data imports
+const User = require('./models/User')
+const {dataUser} = require('./data/index')
 
 /* CONFIGURATION */
 dotenv.config()
