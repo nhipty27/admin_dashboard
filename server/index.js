@@ -13,7 +13,17 @@ const salesRoutes = require("./routes/sales")
 
 // data imports
 const User = require('./models/User')
-const {dataUser} = require('./data/index')
+const Product = require('./models/Product')
+const ProductStat = require('./models/ProductStat')
+
+
+const {
+  dataUser,
+  dataProduct,
+  dataProductStat,
+  dataTransaction,
+  dataOverallStat,
+  dataAffiliateStat} = require('./data/index')
 
 /* CONFIGURATION */
 dotenv.config()
