@@ -15,6 +15,7 @@ const salesRoutes = require("./routes/sales")
 const User = require('./models/User')
 const Product = require('./models/Product')
 const ProductStat = require('./models/ProductStat')
+const Transaction = require('./models/Transaction')
 
 
 const {
