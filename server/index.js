@@ -11,21 +11,6 @@ const generalRoutes = require("./routes/general")
 const managementRoutes = require("./routes/management")
 const salesRoutes = require("./routes/sales")
 
-// data imports
-const User = require('./models/User')
-const Product = require('./models/Product')
-const ProductStat = require('./models/ProductStat')
-const Transaction = require('./models/Transaction')
-
-
-const {
-  dataUser,
-  dataProduct,
-  dataProductStat,
-  dataTransaction,
-  dataOverallStat,
-  dataAffiliateStat} = require('./data/index')
-
 /* CONFIGURATION */
 dotenv.config()
 const app = express()
@@ -52,13 +37,5 @@ mongoose
   })
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`))
-
-    /* ONLY ADD DATA ONE TIME */
-    // AffiliateStat.insertMany(dataAffiliateStat)
-    // OverallStat.insertMany(dataOverallStat)
-    // Product.insertMany(dataProduct)
-    // ProductStat.insertMany(dataProductStat)
-    // Transaction.insertMany(dataTransaction)
-    // User.insertMany(dataUser)
   })
   .catch((error) => console.log(`${error} did not connect`))
