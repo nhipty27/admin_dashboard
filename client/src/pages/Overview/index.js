@@ -5,7 +5,7 @@ import OverviewChart from "components/OverviewChart"
 
 const Overview = () => {
   const [view, setView] = useState("units")
-
+  document.title = 'Admin || Overview'
   return (
     <Box m="1.4rem 2.5rem">
       <Header
