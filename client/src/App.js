@@ -12,7 +12,8 @@ import Transactions from './pages/transactions'
 import Geography from "./pages/geography"
 import Overview from "./pages/Overview"
 import Daily from "./pages/daily"
-import Monthly from "pages/monthly";
+import Monthly from "pages/monthly"
+import Breakdown from "pages/breakdown";
 
 function App() {
   const mode = useSelector((state) => state.global.mode);
@@ -33,6 +34,7 @@ function App() {
               <Route path="/overview" element={<Overview />} />
               <Route path="/daily" element={<Daily />} />
               <Route path="/monthly" element={<Monthly />} />
+              <Route path="/breakdown" element={<Breakdown />} />
             </Route>
           </Routes>
         </ThemeProvider>
