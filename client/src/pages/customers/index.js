@@ -49,7 +49,7 @@ const Customers = () => {
       flex: 0.5,
     },
   ]
-  document.title = 'Admin dashboard || Customers'
+  document.title = 'Admin || Customers'
   return (
     <Box m="1rem 2.5rem">
       <Header title="CUSTOMERS" subtitle="List of Customers" />
