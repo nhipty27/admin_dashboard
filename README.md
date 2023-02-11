@@ -2,7 +2,7 @@
 
 ## 🛠 Introduction
 
-Here is my source code for website. With my code: 
+Here is my source code for website. With my code - This is my project during my studies: 
 * **From the data stored in the database, the website supports the admin in statistical operations, Find where your users are located.**
 * **Client Facing: can view detailed list and number of reviews for each product, list of customers, transactions and total transaction volume by region.**
 * **Sales: Overview of general revenue and profit, Chart of daily, monthly sales, Breakdown of Sales By Category.**
