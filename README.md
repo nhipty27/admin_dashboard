@@ -3,13 +3,14 @@
 ## Introduction
 
 Here is my python source code for web. With my code: 
-* **Given input image, we could generate ASCII art stored under text format in different languages (.txt)**
-* **Given input image, we could generate ASCII art stored under image formats in different languages (.png, .png, ...). In each format, there are 2 options: Black background and white characters, or vice versa**
-* **Given input video, we could generate ASCII art stored under video formats in different languages (.avi, .mp4, ...)**
-* **Video/image outputs could be in grayscale or color format. It is totally up to you**
+* **From the data stored in the database, the website supports the admin in statistical operations, Find where your users are located.**
+* **Client Facing: can view detailed list and number of reviews for each product, list of customers, transactions and total transaction volume by region.**
+* **Sales: Overview of general revenue and profit, Chart of daily, monthly sales, Breakdown of Sales By Category.**
+* **Management: Managing admins and list of admins, Track your Affiliate Sales Performance.**
 
-## Multiple Language Conversion
-We could generate ASCII art with different alphabets (english, german, french, korean, chinese, japanese, ...). Below are example output:
+## Main pages of the website
+
+### Dashboard page:
 <p align="center">
   <img src="demo/1.png" width=800><br/>
   <i>Dashboard page with Dark theme</i>
@@ -20,150 +21,95 @@ We could generate ASCII art with different alphabets (english, german, french, k
   <i>Dashboard page with Light theme</i>
 </p>
 
+### Products page:
 <p align="center">
   <img src="demo/3.png" width=800><br/>
-  <i>German</i>
 </p>
 
+<p align="center">
+  <img src="demo/product.gif" width=800><br/>
+  <i>describe the function of Products page</i>
+</p>
+
+### Customers page:
 <p align="center">
   <img src="demo/4.png" width=800><br/>
-  <i>Korean (Dae Jang-geum)</i>
 </p>
 
+<p align="center">
+  <img src="demo/customer.gif" width=800><br/>
+  <i>describe the function of Customers page</i>
+</p>
+
+### Transactions page:
 <p align="center">
   <img src="demo/5.png" width=800><br/>
-  <i>French</i>
 </p>
 
 <p align="center">
-  <img src="demo/6.png" width=800><br/>
-  <i>Chinese (Actress)</i>
+  <img src="demo/tran.gif" width=800><br/>
+  <i>describe the function of Transactions page</i>
 </p>
 
+### Geography page:
 <p align="center">
   <img src="demo/7.png" width=800><br/>
-  <i>Spanish</i>
 </p>
 
+<p align="center">
+  <img src="demo/geo.gif" width=800><br/>
+  <i>describe the function of Geography page</i>
+</p>
+
+### Overview page:
 <p align="center">
   <img src="demo/8.png" width=800><br/>
-  <i>Russian</i>
 </p>
 
+### Daily page:
+<p align="center">
+  <img src="demo/20.png" width=800><br/>
+</p>
+
+<p align="center">
+  <img src="demo/daily.gif" width=800><br/>
+  <i>describe the function of Daily page</i>
+</p>
+
+### Monthly page:
 <p align="center">
   <img src="demo/9.png" width=800><br/>
-  <i>Russian</i>
 </p>
 
+### Breakdown page:
 <p align="center">
   <img src="demo/10.png" width=800><br/>
-  <i>Russian</i>
 </p>
 
+<p align="center">
+  <img src="demo/break.gif" width=800><br/>
+  <i>describe the function of Breakdown page</i>
+</p>
+
+### Admin page:
 <p align="center">
   <img src="demo/11.png" width=800><br/>
-  <i>Russian</i>
 </p>
 
+### Performance page:
 <p align="center">
   <img src="demo/12.png" width=800><br/>
-  <i>Russian</i>
 </p>
 
+
+### Responsive web for mobile:
 <p align="center">
-  <img src="demo/13.png" width=800><br/>
-  <i>Russian</i>
+  <img src="demo/18.png" width=800><br/>
 </p>
 
+### Responsive web for tablet:
 <p align="center">
-  <img src="demo/14.png" width=800><br/>
-  <i>Russian</i>
+  <img src="demo/19.png" width=800><br/>
 </p>
 
-<p align="center">
-  <img src="demo/14.png" width=800><br/>
-  <i>Russian</i>
-</p>
-
-<p align="center">
-  <img src="demo/16.png" width=800><br/>
-  <i>Russian</i>
-</p>
-
-<p align="center">
-  <img src="demo/17.png" width=800><br/>
-  <i>Russian</i>
-</p>
-
-
-
-
-
-## Video to video
-By running the sript **video2video_color.py** or **video2video.py** with different values for *background* and *mode*, we will have different outputs, for example:
-<p align="center">
-  <img src="demo/demo_complex_color_160.gif" width=800><br/>
-  <i>Colored complex-character ASCII output</i>
-</p>
-
-<p align="center">
-  <img src="demo/demo_simple_white_150.gif" width=800><br/>
-  <i>White-background simple-character ASCII output</i>
-</p>
-
-## Image to text
-By running the sript **img2txt.py** with different values for *mode*, we will have following outputs:
-<p align="center">
-  <img src="demo/input.png" width=800><br/>
-  <i>Input image</i>
-</p>
-
-<p align="center">
-  <img src="demo/demo_image_simple.png" width=800><br/>
-  <i>Simple character ASCII output</i>
-</p>
-
-<p align="center">
-  <img src="demo/demo_image_complex.png" width=800><br/>
-  <i>Complex character ASCII output</i>
-</p>
-
-## Image to image
-By running the sript **img2img_color.py** or **img2img.py** with different values for *background* and *mode*, we will have following outputs:
-<p align="center">
-  <img src="demo/input.png" width=800><br/>
-  <i>Input image</i>
-</p>
-
-<p align="center">
-  <img src="demo/output_complex_color_200.png" width=800><br/>
-  <i>Colored complex-character ASCII output</i>
-</p>
-
-<p align="center">
-  <img src="demo/output_simple_white_200.png" width=800><br/>
-  <i>White-background simple-character ASCII output</i>
-</p>
-
-<p align="center">
-  <img src="demo/output_simple_black_200.png" width=800><br/>
-  <i>Black-background simple-character ASCII output</i>
-</p>
-
-<p align="center">
-  <img src="demo/output_complex_white_200.png" width=800><br/>
-  <i>White-background complex-character ASCII output</i>
-</p>
-
-<p align="center">
-  <img src="demo/output_complex_black_200.png" width=800><br/>
-  <i>Black-background complex-character ASCII output</i>
-</p>
-
-## Requirements
-
-* **python 3.6**
-* **cv2**
-* **PIL** 
-* **numpy**
 
